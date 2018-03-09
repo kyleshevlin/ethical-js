@@ -21,8 +21,17 @@ export default class Presentation extends Component {
     return (
       <Deck transition={['fade']} transitionDuration={500} theme={theme}>
         <PrimarySlide>EthicalJS</PrimarySlide>
+
         <TertiarySlide size={2}>
           Why Our Next Frameworks Need to be Ethical Ones
+        </TertiarySlide>
+
+        <PrimarySlide size={2}>Who Am I?</PrimarySlide>
+
+        <PrimarySlide style={{ fontFamily: 'Palatino' }}>ἠθικός</PrimarySlide>
+
+        <TertiarySlide size={2}>
+          The Difference Between Ethics and Morals
         </TertiarySlide>
       </Deck>
     )
