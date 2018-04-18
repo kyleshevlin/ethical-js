@@ -19,7 +19,11 @@ require('normalize.css')
 export default class Presentation extends Component {
   render() {
     return (
-      <Deck transition={['fade']} transitionDuration={500} theme={theme}>
+      <Deck
+        transition={['fade']}
+        transitionDuration={500}
+        theme={theme}
+      >
         <PrimarySlide>EthicalJS</PrimarySlide>
 
         <TertiarySlide size={2}>
@@ -28,7 +32,19 @@ export default class Presentation extends Component {
 
         <PrimarySlide size={2}>Who Am I?</PrimarySlide>
 
-        <PrimarySlide style={{ fontFamily: 'Palatino' }}>ἠθικός</PrimarySlide>
+        <PrimarySlide size={3}>
+          Kyle Shevlin<br />
+          Senior Software Engineer at Formidable<br />
+          @kyleshevlin
+        </PrimarySlide>
+
+        <PrimarySlide size={2}>
+          The Imitation Game
+        </PrimarySlide>
+
+        <PrimarySlide style={{ fontFamily: 'Palatino' }}>
+          ἠθικός
+        </PrimarySlide>
 
         <TertiarySlide size={2}>
           The Difference Between Ethics and Morals
