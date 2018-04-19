@@ -49,6 +49,14 @@ export default class Presentation extends Component {
         <TertiarySlide size={2}>
           The Difference Between Ethics and Morals
         </TertiarySlide>
+
+        <TertiarySlide>
+          <p>
+            This is more about having a vernacular to
+            discuss ethical issues, and a strategy for
+            making ethical decisions
+          </p>
+        </TertiarySlide>
       </Deck>
     )
   }
