@@ -19,11 +19,7 @@ require('normalize.css')
 export default class Presentation extends Component {
   render() {
     return (
-      <Deck
-        transition={['fade']}
-        transitionDuration={500}
-        theme={theme}
-      >
+      <Deck transition={['fade']} transitionDuration={500} theme={theme}>
         <PrimarySlide>EthicalJS</PrimarySlide>
 
         <TertiarySlide size={2}>
@@ -38,13 +34,9 @@ export default class Presentation extends Component {
           @kyleshevlin
         </PrimarySlide>
 
-        <PrimarySlide size={2}>
-          The Imitation Game
-        </PrimarySlide>
+        <PrimarySlide size={2}>The Imitation Game</PrimarySlide>
 
-        <PrimarySlide style={{ fontFamily: 'Palatino' }}>
-          ἠθικός
-        </PrimarySlide>
+        <PrimarySlide style={{ fontFamily: 'Palatino' }}>ἠθικός</PrimarySlide>
 
         <TertiarySlide size={2}>
           The Difference Between Ethics and Morals
@@ -52,10 +44,21 @@ export default class Presentation extends Component {
 
         <TertiarySlide>
           <p>
-            This is more about having a vernacular to
-            discuss ethical issues, and a strategy for
-            making ethical decisions
+            This is more about having a vernacular to discuss ethical issues,
+            and a strategy for making ethical decisions
           </p>
+        </TertiarySlide>
+
+        <TertiarySlide>
+          <p>Volkswagen</p>
+        </TertiarySlide>
+
+        <TertiarySlide>
+          <p>Uber</p>
+        </TertiarySlide>
+
+        <TertiarySlide>
+          <p>Hawaii</p>
         </TertiarySlide>
       </Deck>
     )
