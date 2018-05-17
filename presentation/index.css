@@ -1,0 +1,12 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid #f3f7f0;
+  padding: 0.5em;
+}
+
+td.leftAligned {
+  text-align: left;
+}

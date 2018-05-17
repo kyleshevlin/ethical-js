@@ -1,16 +1,16 @@
 import createTheme from 'spectacle/lib/themes/default'
 
 // Derived from this:
-// https://coolors.co/050517-cf5c36-efc88b-f4e3b2-d3d5d7
+// coolors.co/f2545b-a93f55-19323c-f3f7f0
 const theme = createTheme(
   {
-    primary: '#050517',
-    secondary: '#eee',
-    tertiary: '#CF5C36',
-    quarternary: '#eee'
+    primary: '#19323c',
+    secondary: '#f3f7f0',
+    tertiary: '#f2545b',
+    quarternary: '#a93f55'
   },
   {
-    primary: 'Montserrat',
+    primary: 'Roboto Slab',
     secondary: 'Helvetica'
   }
 )
