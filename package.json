@@ -1,8 +1,9 @@
 {
-  "name": "spectacle-boilerplate",
+  "name": "Ethical JS",
   "version": "1.0.1",
-  "description": "ReactJS Powered Presentation Framework",
+  "description": "A talk on why ethics is important to software engineering",
   "main": "lib/index.js",
+  "private": true,
   "scripts": {
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
