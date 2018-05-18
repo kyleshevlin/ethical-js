@@ -1,5 +1,5 @@
 {
-  "name": "Ethical JS",
+  "name": "EthicalJS",
   "version": "1.0.1",
   "description": "A talk on why ethics is important to software engineering",
   "main": "lib/index.js",
