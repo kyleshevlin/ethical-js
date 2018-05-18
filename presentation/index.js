@@ -442,7 +442,7 @@ export default class Presentation extends Component {
 
         {/* Resources */}
 
-        <PrimarySlide size="3" heading="Resources & Links">
+        <PrimarySlide size={3} heading="Resources & Links">
           <List>
             <ListItem style={{ marginBottom: '0.25em' }}>
               <Link
@@ -480,7 +480,7 @@ export default class Presentation extends Component {
           </List>
         </PrimarySlide>
 
-        <PrimarySlide size="3" heading="Resources & Links, pt. II">
+        <PrimarySlide size={3} heading="Resources & Links, pt. II">
           <List>
             <ListItem style={{ marginBottom: '0.25em' }}>
               <Link textColor="tertiary" href="https://vimeo.com/68470326">
