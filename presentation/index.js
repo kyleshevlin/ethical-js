@@ -30,6 +30,7 @@ const images = {
   annaAndMe: require('../assets/anna-and-me.jpg'),
   imitationGame: require('../assets/imitation-game.jpg'),
   occMeme: require('../assets/occ-meme-box.jpg'),
+  parentalAdvisory: require('../assets/parental-advisory.png'),
   turingMachine: require('../assets/turing-machine.jpg'),
   tweet: require('../assets/tweet.png')
 }
@@ -55,6 +56,10 @@ export default class Presentation extends Component {
             I can not legitimately understand why we have to do this again,<br />
             but I digress...
           </Text>
+        </PrimarySlide>
+
+        <PrimarySlide>
+          <Image width={700} src={formatSrc(images.parentalAdvisory)} />
         </PrimarySlide>
 
         <PrimarySlide />
@@ -504,6 +509,16 @@ export default class Presentation extends Component {
               </Link>
             </ListItem>
           </List>
+        </PrimarySlide>
+
+        <PrimarySlide>
+          <Link
+            style={{ fontSize: '1.5em' }}
+            textColor="tertiary"
+            href="https://kyleshevlin.github.io/ethical-js"
+          >
+            kyleshevlin.github.io/ethical-js
+          </Link>
         </PrimarySlide>
       </Deck>
     )
