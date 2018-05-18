@@ -30,6 +30,7 @@ const images = {
   annaAndMe: require('../assets/anna-and-me.jpg'),
   imitationGame: require('../assets/imitation-game.jpg'),
   occMeme: require('../assets/occ-meme-box.jpg'),
+  turingMachine: require('../assets/turing-machine.jpg'),
   tweet: require('../assets/tweet.png')
 }
 
@@ -55,6 +56,13 @@ export default class Presentation extends Component {
             but I digress...
           </Text>
         </PrimarySlide>
+
+        <TertiarySlide>
+          <Image src={formatSrc(images.turingMachine)} />
+          <Text textColor="quarternary" style={{ marginTop: '.5em' }}>
+            That's a bombe. With an "e".
+          </Text>
+        </TertiarySlide>
 
         {/* Discuss the pivotal moment of the movie, wrapping it up as potentially the very first ethical decisions made from the effects and ramifications of computers and computer science */}
         <PrimarySlide />
