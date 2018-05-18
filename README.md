@@ -1,5 +1,5 @@
 # EthicalJS
-## Why Our Next Frameworks Must Be Ethical Ones
+## Why Our Next Frameworks Need to be Ethical Ones
 
-This is a talk on the importance of philosophy and ethics in software engineering.
+This is a talk on the importance of ethics in software engineering.
 
