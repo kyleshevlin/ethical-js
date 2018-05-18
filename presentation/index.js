@@ -57,6 +57,8 @@ export default class Presentation extends Component {
           </Text>
         </PrimarySlide>
 
+        <PrimarySlide />
+
         <TertiarySlide>
           <Image src={formatSrc(images.turingMachine)} />
           <Text textColor="quarternary" style={{ marginTop: '.5em' }}>
@@ -168,6 +170,61 @@ export default class Presentation extends Component {
 
         <PrimarySlide>
           <Image height={600} src={formatSrc(images.tweet)} />
+        </PrimarySlide>
+
+        <TertiarySlide size={3} heading="Propositional Logic">
+          <Appear>
+            <Table style={{ marginTop: '1.5em' }}>
+              <TableRow style={{ fontStyle: 'bold' }}>
+                <TableHeaderItem>Name</TableHeaderItem>
+                <TableHeaderItem>Definition</TableHeaderItem>
+              </TableRow>
+              <TableRow style={{ textAlign: 'left' }}>
+                <TableItem>
+                  <em>Modus Ponens</em>
+                </TableItem>
+                <TableItem className="leftAligned">
+                  If <em>p</em>, then <em>q</em>. <em>p</em>, therefore{' '}
+                  <em>q</em>
+                </TableItem>
+              </TableRow>
+              <TableRow style={{ textAlign: 'left' }}>
+                <TableItem>
+                  <em>Modus Tollens</em>
+                </TableItem>
+                <TableItem className="leftAligned">
+                  If <em>not q</em>, then <em>not p</em>. <em>not q</em>,
+                  therefore, <em>not p</em>
+                </TableItem>
+              </TableRow>
+              <TableRow style={{ textAlign: 'left' }}>
+                <TableItem>
+                  <em>Hypothetical Syllogism</em>
+                </TableItem>
+                <TableItem className="leftAligned">
+                  If <em>p</em>, then <em>q</em>, and if <em>q</em>, then{' '}
+                  <em>r</em>. <em>p</em>, therefore <em>r</em>
+                </TableItem>
+              </TableRow>
+            </Table>
+          </Appear>
+        </TertiarySlide>
+
+        <TertiarySlide size={3} heading="Propositional Logic, pt. 2">
+          <Text textColor="secondary" style={{ marginTop: '1.5em' }}>
+            <div>
+              <em>De Morgan's Laws</em>: <em>not</em> the conjuction of{' '}
+              <em>p</em> and <em>q</em> is equivalent to the disjunction of{' '}
+              <em>not p</em> and <em>not q</em> and vice versa.
+            </div>
+          </Text>
+        </TertiarySlide>
+
+        <PrimarySlide>
+          <Text textColor="secondary" style={{ fontSize: '2em' }}>
+            <div style={{ marginBottom: '.75em' }}>!(p && q) === !p || !q</div>
+            <div>!(p || q) === !p && !q</div>
+          </Text>
         </PrimarySlide>
 
         <TertiarySlide heading="What is Ethics?">
